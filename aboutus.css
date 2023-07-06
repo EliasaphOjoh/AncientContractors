@@ -13,7 +13,6 @@ ul{
 	display: flex;
 	list-style: none;
 	padding-top: 12px;
-
 }
 ul li a{
 	text-decoration: none;
@@ -46,6 +45,9 @@ ul li a{
 }
 .buttons a:hover{
 	color: wheat;
+}
+.burger, #menuBtn{
+	display: none;
 }
 h1{
 	margin-top: 50px;
