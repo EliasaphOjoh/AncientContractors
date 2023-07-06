@@ -1,0 +1,44 @@
+@media (min-width:768px){
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	h1{
+		padding-bottom: 30px;
+		padding-top: 30px;
+		background-color:#29aab0;
+		color:white;
+		text-align:center;
+	}
+	.bady{
+		margin-left:1%;
+		margin-right:1%;
+	}
+	.bady a{
+		text-decoraton: none;
+	}
+}
+@media (max-width:767px){
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	p{
+		padding-bottom:10px;
+		padding-top:10px;
+	text-align: center;
+		background-color:#29aab0;
+		color:white;
+		font-size: 15px;
+	}
+	.bady{
+		margin-left:2px;
+		margin-right:2px;
+	}
+	.bady a{
+		text-decoraton: none;
+	}
+	table{
+		font-size:10px;
+	}
+}
