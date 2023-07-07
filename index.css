@@ -62,8 +62,8 @@ font-weight: 600;
 }
 .welcome{
 	margin-top:1px;
-	padding-top: 50px;
-	display: flex;
+	padding-top:50px;
+	display:flex;
 }
 .lines{
 	margin-top: 80px;
@@ -398,10 +398,11 @@ font-size: 13px;
 	width: 100%;
 }
 .post{
+	width:24%;
 	border-radius:3px;
 	padding: 3px;
 	margin-left: 2px;
-	background-color:powderblue;
+	background-color:lavender;
 }
 .post img{
 	display: flex;
@@ -507,7 +508,7 @@ font-size: 13px;
 .contactus {
 	padding-top:30px;
 	padding-bottom:30px;
-	padding-left:;
+	padding-left:1%;
 	background-color:#29aab0;
 	text-align:center;
 }
@@ -517,26 +518,25 @@ font-size: 13px;
 	font-weight: bolder;
 	color: white;
 }
-.contactus form{
-	display: block;
-}
 .contactus input{
-	align-items:left;
 	margin-top: 10px;
 	color: white;
 	border: none;
 	border-bottom:1px solid white;
 	background: none;
-	padding:1px;
+	padding:5px;
 	font-family: nunito;
 	font-weight:100;
+	width:25%;
+
 }
 #send{
 	border:none;
 	background-color:white;
-	padding-left: 15px;
-	padding-right: 15px;
 	color:grey;
+	width:10%;
+	text-align: left;
+	font-size:10px;
 }
 #send:hover{
 	background-color:green;
